@@ -1,0 +1,33 @@
+.cookie{
+    width: 1200px;
+    padding: 30px;
+    background-color: black;
+    color:aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 50%;
+    bottom: -30px;
+    opacity: 0;
+    transform: translateX(-50%);
+    border-radius:20px ;
+    transition: all 0.5s;
+}
+.cookie_pop{
+    opacity: 1;
+    bottom: 30px;
+    
+}
+.knopki{
+    display: flex;
+    column-gap: 15px;
+}
+.knopka_cancel{
+    background-color: crimson;
+
+}
+.knopka_cancel:hover{
+    background-color: rgb(175, 0, 35);
+}
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>мой сайт</title>
+
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/bottom.css">
+    <link rel="stylesheet" href="./styles/galary.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/cookie.css">
+    <link rel="stylesheet" href="./styles/modalka.css">
+
+
+</head>
+<body>
+    <div class="fon hidden" id="okno">
+        <div class="modalka kotick">
+            <button class="krestick" id="kresticks">X</button>
+            <img src="./img/котик в гирляндах.jpg" alt="котик в гирляндах">
+            <span>успешно ваши данные отправленны обязаааатально вам напишем</span>
+        </div>
+    </div>
+
+    <div class="fon hidden" id="modalka">
+        <div class="modalka">
+            <button class="krestick" id="krestick">X</button>
+            <form class="forma">
+                <div class="modal">
+                    <input type="text" name="name" id="name">
+                    <label for="name">имя*</label>
+                </div>
+                <div class="modal">
+                    <input type="email" name="email" id="email">
+                    <label for="email">email*</label>
+                </div>
+                <div class="modal">
+                    <input type="text" name="number" id="number">
+                    <label for="number">номер*</label>
+                </div>
+                <p>для соглашения нужно принять политику кондефриальности</p>
+                <button type="submit">отправить</button>
+
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <div class="cookie" id="cookie">
+        <p>Используя данный сайт, вы даете согласие на использование файлов cookie, помогающих нам сделать его удобнее для вас.</p>
+        <div class="knopki">
+            <button class="knopka">принять</button>
+            <button class="knopka knopka_cancel" >отказаться</button>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+        <div class="header-wrapper">
+        <span class="name">
+            мой сайт
+        </span>
+        <nav>
+            <ul class="links">
+                <li><a href="#">поддержка</a></li>
+                <li><a href="https://dzen.ru/search?query=новости%20UFC&mt_link_id=kikkq1&utm_source=yandex&utm_medium=cpc&yclid=16163886308927995903">новости</a></li>
+                <li><a href="https://yandex.ru/games/">яндекс игры</a></li>
+            </ul>
+        </nav>
+        </div>
+        </div>
+    </header>
+    
+    <main>
+        <section class="info">
+        <div class="container">
+            <div class="info-wrapper">
+        
+            <h1>Привет, я <span>Платон</span></h1> 
+            <p class="first">я занимаюсь программированием</p>
+            <p class="second">я высокий</p>
+            <button class="knopka" id="modalkasummoner">связаться</button>
+        
+        </div>
+        </div>
+        </section>
+    
+        <section class="bottom">
+            <div class="container">
+            <div class="bottom-wrapper">
+            <h2>Моя <span class="life">жизнь</span> </h2>
+            <div class="galary">
+
+                <div>
+                    <img src="./img/тэквандо.jpeg" alt="тэквандо" width="370" height="278">
+                    <p>тэквандо</p>
+                </div>
+
+                <div>
+                    <img src="./img/дота.jpeg" alt="дота" width="370" height="278">
+                    <p>дота</p>
+                </div>
+
+                <div>
+                    <img src="./img/программирование.jpg" alt="программирование" width="370" height="278">
+                    <p>программирование</p>
+                </div>
+
+                <div>
+                    <img src="./img/кино.jpg" alt="кино" width="370" height="278">
+                    <p>кино</p>
+                </div>
+
+                <div>
+                    <img src="./img/море.jpg" alt="море" width="370" height="278">
+                    <p>море</p>
+                </div>
+
+                <div>
+                    <img src="./img/стендофф.jpg" alt="стендофф" width="370" height="278">
+                    <p>стендофф</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        </section>
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="container">
+        <div class="footer-wrapper">
+        <div class="linki">
+        <a href = '#'><img src="./img/vk.png" alt="вк" width="50" height="50"></a>
+        <a href="#"><img src="./img/вацап.png" alt="вацап" width="50" height="50"></a>
+        <a href="#"><img src="./img/тг.png" alt="тг" width="50" height="50"></a>
+        </div>
+        <p>© 2024 platon kryt</p>
+
+        </div>
+        </div>
+        <!-- © -->
+    </footer>
+    <script src="./js/cookie.js"></script>
+    <script src="./js/modalka.js"></script>
+    <script src="./js/forma.js"></script>
+
+</body>
+</html>

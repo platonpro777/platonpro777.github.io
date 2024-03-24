@@ -1,0 +1,24 @@
+.footer{
+    background-color: #171718;
+    padding: 30px 0;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#fff;
+
+}
+.linki{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    padding-bottom: 20px;
+}
+.linki a:hover{
+    opacity: 70%;
+}
+.linki a{
+    transition: all 500ms;
+}

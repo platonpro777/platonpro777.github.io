@@ -1,0 +1,64 @@
+.modalka{
+    padding: 40px;
+    background-color: aliceblue;
+    width: 417px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+    border-radius: 20px;
+
+}
+.modal{
+    display: flex;
+    flex-direction:column-reverse;
+    row-gap: 4px;
+}
+.modal input{
+    padding: 10px 16px;
+    border: 1px solid rgb(43, 43, 43);
+    border-radius:14px ;
+}
+.forma{
+    display: flex;
+    flex-direction:column;
+    row-gap: 10px;
+}
+.forma button{
+    padding: 16px 30px;
+    border-radius: 16px;
+    background-color: rgb(40, 197, 40);
+    color: white;
+    font-size: 17px;
+}
+.krestick{
+    background-color: rgba(0, 0, 0, 0.459);
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: large;
+}
+.fon{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+.modal span{
+    color: red;
+}
+.kotick img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.kotick span{
+    font-size: large;
+    font-weight: bold;
+    
+}
+.kotick{
+    text-align: center;
+}

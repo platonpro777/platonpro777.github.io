@@ -1,0 +1,24 @@
+.header-wrapper{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0;
+    color:#fff;
+
+
+}
+header{
+    background-color: #171718;
+}
+.links{
+    display: flex;
+    column-gap: 20px;
+}
+.links a:hover{
+    color:rgb(143, 203, 255);
+    text-decoration: underline;
+}
+.links a{
+    transition:all 3s ease;
+}

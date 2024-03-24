@@ -1,0 +1,40 @@
+.info-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #171718;
+    color:#fff;
+}
+.info h1 span{
+    color: #5C62EC;
+}
+.info h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.second{
+    font-size: 18px;
+    font-weight: 500px;
+    padding-bottom: 10px;
+}
+.first{
+    font-size: 40px;
+    font-weight: bold;
+}
+.knopka{
+    color: #fff;
+    background-color: #5C62EC;
+    padding: 12px 37px;
+    border-radius: 5px;
+    transition: all 0.2s;
+
+}
+.knopka:hover{
+    background-color: rgb(70, 75, 219);
+}
+.info{
+    background-color: #171718;
+    padding-bottom: 30px;
+}
